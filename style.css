@@ -1,0 +1,132 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    transition: 0.3s;
+}
+.nav-link1 {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    transition: 0.3s;
+}
+
+.nav-link2 {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    transition: 0.3s;
+}
+.nav-link3 {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    transition: 0.3s;
+}
+
+.nav-link span {
+   
+    border-bottom: 3px solid rgb(107, 190, 201);
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    width: 70px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+
+.nav-link:hover span {
+    border-bottom-color: #fff;
+    color: rgb(107, 190, 201);
+}
+
+.nav-link span {
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.nav-link1 span {
+   
+    border-bottom: 3px solid rgb(107, 190, 201);
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    width: 70px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+.nav-link2 span {
+   
+    border-bottom: 3px solid rgb(107, 190, 201);
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    width: 80px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+.nav-link3 span {
+   
+    border-bottom: 3px solid rgb(107, 190, 201);
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    width: 50px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+.nav-link1:hover span {
+    border-bottom-color: #fff;
+    color: rgb(107, 190, 201);
+}
+.nav-link2:hover span {
+    border-bottom-color: #fff;
+    color: rgb(107, 190, 201);
+}
+.nav-link3:hover span {
+    border-bottom-color: #fff;
+    color: rgb(107, 190, 201);
+}
+.nav-link:hover{
+    transform: translateY(-5px);    
+
+}
+.nav-link1:hover{
+    transform: translateY(-5px);    
+}
+.nav-link2:hover{
+    transform: translateY(-5px);    
+}
+.nav-link3:hover{
+    transform: translateY(-5px);    
+}
+a:hover{
+    font-size: 100px;
+}
+a{
+    display: inline-block;
+}
